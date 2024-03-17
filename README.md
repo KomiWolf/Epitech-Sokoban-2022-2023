@@ -5,36 +5,27 @@ Le but de ce projet est de refaire le jeu japonais "Sokoban" qui est un jeu où 
 
 On doit faire ce projet avec la librairie Ncurses.
 
+============================================
 
-**Le sujet :** 
+Tableau de score inspiré de celui de Nekory :
 
-*Develop a copy of this game in terminal mode, using the ncurses library.*
+| Category                                   | Percentage | Tests     | Crash ? |
+|----------------------------------------    |------------|-----------|---------|
+| Usage and input checks                     | 100%       | 4/4       | x       |
+| Basic moves                                | 100%       | 2/2       | x       |
+| Basic collisions and box on targets        | 50%        | 2/4       | x       |
+| Intermediate moves and collisions          | 83.3%      | 5/6       | x       |
+| Intermediate maps tests                    | 75%        | 3/4       | x       |
+| Intermediate winning and losing conditions | 0%         | 0/2       | x       |
+| Final moves and collisions                 | 83.3%      | 5/6       | x       |
+| Final maps tests                           | 75%        | 3/4       | x       |
+| Final winning and losing conditions        | 0%         | 0/2       | x       |
+| **End score**                              | **72.2%**  | **24/34** | **No**  |
 
-*If all boxes are on storage locations, the player wins and the program must return 0.*
+Condition de win et de lose réglé après la dernière mouli
 
-*Otherwise, if none of the boxes can be moved anymore, he loses and the program must return 1.*
+============================================
 
-*The game must be reset by pressing the space bar.*
+Projet en solo
 
-*Redimensioning the terminal must be handled. As long as the terminal is too small to display the whole map, a centered message, asking the user to enlarge the terminal, must be displayed.*
-
-*The game must be able to be played with the arrow keys (LEFT, RIGHT, UP and DOWN).*
-
-*A valid map can only contains the characters SPACE, ‘\n’, ‘#’, ‘X’, ‘O’ and ‘P’.*
-
-*If an invalid map is supplied, the program must exit with an error.*
-
-
-**Les fonctions autorisés :**
-
-*Toutes les fonctions de la Ncurses;*
-
-*• malloc, free, exit;*
-
-*• (f)open, (f)close, (f)read, (f)write;*
-
-*• getline, ioctl, usleep, sigaction, signal;*
-
-*• stat, lstat, fstat;*
-
-Attention pour le -42 pour les Etudiants d'Epitech !!
+Attention au -42 pour les étudiants d'Epitech !
