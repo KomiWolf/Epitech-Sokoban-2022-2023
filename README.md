@@ -7,7 +7,7 @@ On doit faire ce projet avec la librairie Ncurses.
 
 ============================================
 
-Tableau de score inspiré de celui de Nekory :
+Tableau de score inspiré de celui de [Nekory](https://github.com/Nekory23) :
 
 | Category                                   | Percentage | Tests     | Crash ? |
 |----------------------------------------    |------------|-----------|---------|
